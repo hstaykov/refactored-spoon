@@ -24,7 +24,7 @@ function randomIntFromInterval(min, max) { // min and max included
     //Vassals
     (function loop() {
         console.log("тест");
-        var rand = randomIntFromInterval(6000, 30000);
+        var rand = randomIntFromInterval(60000, 300000);
         setTimeout(function() {
                 console.log("Get vassal income : " + rand/1000 + " secs");
                 xajax_doCollectVassalGold('vassal-screen', {provinceId: capitalId, allVassal: true})
