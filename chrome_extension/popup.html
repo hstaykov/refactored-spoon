@@ -13,14 +13,24 @@
   <div role="main">
     <form>
       <label for="timeframe">Times</label>
-      <input type="number" name="provinces" id="provinces" min="1" max="20" value="1">
+      <input type="number" name="provinces" id="provinces" min="1" max="50" value="1">
       <label for="timeframe">Type</label>
       <select id="timeframe">
         <option value="recSpies">Recruit Spies</option>
-        <option value="upgrArcher">Upgrade to Elite Archers</option>
-        <option value="upgrSword">Upgrade to Elite Swords</option>
-        <option value="upgrSpear">Upgrade to Elite Spears</option>
+        <option value="recrArcher">Recruit Archers</option>
+        <option value="recrSword">Recruit Swords</option>
+        <option value="recrSpear">Recruit Spears</option>
+        <option value="recrHorse">Recruit Horses</option>
+        <option value="upgrArcher">Upgrade Archers</option>
+        <option value="upgrSword">Upgrade Swords</option>
+        <option value="upgrSpear">Upgrade Spears</option>
+        <option value="upgrHorse">Upgrade Horses</option>
       </select>
+      <select id="tier">
+        <option value="2">Heavy</option>
+        <option value="3">Elite</option>
+      </select>
+      </br>
       <label for="timeframe">Amount</label>
       <input type="number" name="quantity" id="quantity" min="1" max="10000" value="100">
       <button id="button">Go!</button>

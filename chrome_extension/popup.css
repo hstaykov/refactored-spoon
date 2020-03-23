@@ -97,3 +97,15 @@ button {
   border-color: #2E231C;
   box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 3px rgba(122, 90, 71, 0.2);
 }
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #155F63;
+  vertical-align: middle;
+  border: 1px solid #776C56;
+  border-bottom-color: #928872;
+  border-radius: 5px 5px 5px 5px;
+  background: #CBBD9E;
+  background: rgba(255, 252, 233, 0.3);
+}
